@@ -1,0 +1,8 @@
+suites:
+  - name: default
+    run_list:
+      - recipe[kitchentest::default]
+    attributes:
+    excludes:
+      - win2012
+      - aws_redhat7
