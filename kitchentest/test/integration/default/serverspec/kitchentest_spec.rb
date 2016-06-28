@@ -8,8 +8,8 @@ describe 'Check /tmp/kitchentest' do
   it 'it exists' do
     expect(testfile).to be_file
   end
-  it 'it contains Hello steve!' do
-    expect(testfile).to contain 'Hello steve!'
+  it 'it contains Hello Alex!' do
+    expect(testfile).to contain 'Hello Alex!'
   end
   it 'it is owned by root' do
     expect(testfile).to be_owned_by 'root'
