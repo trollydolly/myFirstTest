@@ -1,2 +1,2 @@
 default['kitchentest']['file'] = '/tmp/kitchentest'
-default['kitchentest']['message'] = 'Hello steve!'
+default['kitchentest']['message'] = 'Hello Alex!'
