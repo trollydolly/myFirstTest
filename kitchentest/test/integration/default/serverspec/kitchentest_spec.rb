@@ -9,7 +9,7 @@ describe 'Check /tmp/kitchentest' do
     expect(testfile).to be_file
   end
   it 'it contains Hello steve!' do
-    expect(testfile).to contain 'Hello steve!'
+    expect(testfile).to contain 'Hello Alex!'
   end
   it 'it is owned by root' do
     expect(testfile).to be_owned_by 'root'
